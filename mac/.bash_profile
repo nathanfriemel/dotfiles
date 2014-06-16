@@ -11,3 +11,6 @@ alias ll='ls -la'
 
 # z directory jumper
 . ~/z.sh
+
+# colorized cat
+alias c='pygmentize -O style=monokai -f console256 -g'
