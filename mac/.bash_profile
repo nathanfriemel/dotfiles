@@ -14,3 +14,6 @@ alias ll='ls -la'
 
 # colorized cat
 alias c='pygmentize -O style=monokai -f console256 -g'
+
+# quick web server
+alias www='python -m SimpleHTTPServer 8001'
