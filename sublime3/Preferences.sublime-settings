@@ -1,15 +1,23 @@
 // Settings in here override those in "Default/Preferences.sublime-settings",
 // and are overridden in turn by file type specific settings.
 {
-    "translate_tabs_to_spaces": true,
-    "highlight_line": true,
-    "caret_style": "solid",
-    "caret_extra_bottom": 2,
-    "caret_extra_top": 2,
-    "caret_extra_width": 1,
-    "line_padding_top": 1,
-    "line_padding_bottom": 1,
-    "highlight_modified_tabs": true,
-    "remember_open_files": true,
+	"font_size": 11,
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
+	"caret_extra_width": 1.5,
+	"caret_style": "solid",
+	"color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"remember_open_files": true,
+	"theme": "Seti.sublime-theme",
+	"translate_tabs_to_spaces": true,
+        "enable_tab_scrolling": false
 }
 
