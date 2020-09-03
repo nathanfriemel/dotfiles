@@ -4,7 +4,9 @@ PS1="[\[\033[32m\]\w]\[\033[0m\]\$(__git_ps1)\n\[\033[1;36m\]\u\[\033[32m\]$ \[\
 
 # git stuffs
 alias gs='git status'
+alias gp="git pull"
 alias gb='git branch'
+alias gbd="git branch --merged | egrep -v \"(^\*|master|dev|develop)\" | xargs git branch -d"
 
 # terminal shortcuts
 alias ll='ls -la'
